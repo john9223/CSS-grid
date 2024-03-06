@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid_item {
+  border: 1px solid black;
+  background-color: gray;
+  box-shadow: rgba(0.1, 0.2, 0.2, 0.56) 0px 22px 70px 4px;
+}
+
+.grid_item img {
+  width: 100%;
+  height: 100%;
+}
